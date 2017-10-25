@@ -4,7 +4,8 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send({
-        hi: 'hello'
+        hi: 'hello',
+        zero: 'shaon'
     });
 });
 
