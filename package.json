@@ -1,18 +1,23 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "nodejs server for emaily\u001b[D\u001b[D\u001b[D\u001b[D\u001b[E\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
-  "main": "index.js",
-  "engines": {
-      "node": "8.1.1",
-      "npm": "5.0.3"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Sheikh Moinul Hasan",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+    "name": "server",
+    "version": "1.0.0",
+    "description":
+        "nodejs server for emaily\u001b[D\u001b[D\u001b[D\u001b[D\u001b[E\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "main": "index.js",
+    "engines": {
+        "node": "8.1.1",
+        "npm": "5.0.3"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Sheikh Moinul Hasan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.2",
+        "nodemon": "^1.12.1",
+        "passport": "^0.4.0",
+        "passport-google-oauth20": "^1.0.0"
+    }
 }
